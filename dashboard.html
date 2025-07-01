@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chọn Môn Học</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-image: url("https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/07/anh-dep-thien-nhien-2-1.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+
+      header {
+        background-color: rgba(0, 123, 255, 0.85);
+        color: white;
+        padding: 24px;
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        backdrop-filter: blur(4px);
+      }
+
+      .subject-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 24px;
+        padding: 40px;
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      .subject-card {
+        position: relative;
+        height: 160px;
+        color: white;
+        border-radius: 16px;
+        overflow: hidden;
+        cursor: pointer;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s ease;
+        text-decoration: none;
+      }
+
+      .subject-card:hover {
+        transform: scale(1.03);
+      }
+
+      .subject-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.45);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+        padding: 0 10px;
+      }
+
+      .toan {
+        background-image: url("https://img.freepik.com/free-vector/mathematics-concept-illustration_114360-755.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+
+      .tiengviet {
+        background-image: url("https://img.freepik.com/free-vector/education-concept-illustration_114360-6307.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+
+      .tienganh {
+        background-image: url("https://img.freepik.com/free-vector/english-language-learning-concept_23-2148484970.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+
+      .vatly {
+        background-image: url("https://img.freepik.com/free-vector/physics-concept-illustration_114360-6433.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+
+      .hoahoc {
+        background-image: url("https://img.freepik.com/free-vector/chemistry-concept-illustration_114360-4413.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+
+      .lichsu {
+        background-image: url("https://img.freepik.com/free-vector/history-subject-illustration_114360-7338.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+
+      .dialy {
+        background-image: url("https://img.freepik.com/free-vector/world-map-concept-illustration_114360-8355.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+
+      .ktpl {
+        background-image: url("https://img.freepik.com/free-vector/law-concept-illustration_114360-3880.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Chọn Môn Học</header>
+
+    <div class="subject-container">
+      <a href="toan.html" class="subject-card toan">
+        <div class="subject-overlay">Toán học</div>
+      </a>
+      <a href="tiengviet.html" class="subject-card tiengviet">
+        <div class="subject-overlay">Tiếng Việt</div>
+      </a>
+      <a href="tienganh.html" class="subject-card tienganh">
+        <div class="subject-overlay">Tiếng Anh</div>
+      </a>
+      <a href="vatly.html" class="subject-card vatly">
+        <div class="subject-overlay">Vật lý</div>
+      </a>
+      <a href="hoahoc.html" class="subject-card hoahoc">
+        <div class="subject-overlay">Hóa học</div>
+      </a>
+      <a href="lichsu.html" class="subject-card lichsu">
+        <div class="subject-overlay">Lịch sử</div>
+      </a>
+      <a href="dialy.html" class="subject-card dialy">
+        <div class="subject-overlay">Địa lý</div>
+      </a>
+      <a href="ktpl.html" class="subject-card ktpl">
+        <div class="subject-overlay">Kinh tế - Pháp luật</div>
+      </a>
+    </div>
+  </body>
+</html>
