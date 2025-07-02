@@ -17,6 +17,7 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        color: white;
       }
 
       header {
@@ -24,16 +25,33 @@
         color: white;
         padding: 24px;
         text-align: center;
-        font-size: 28px;
+        font-size: 32px;
         font-weight: bold;
         backdrop-filter: blur(4px);
+      }
+
+      .section-title {
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+      }
+
+      .divider {
+        height: 3px;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: 40px auto;
+        width: 80%;
+        border-radius: 4px;
       }
 
       .subject-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
         gap: 24px;
-        padding: 40px;
+        padding: 0 40px 40px;
         max-width: 1200px;
         margin: auto;
       }
@@ -45,7 +63,7 @@
         border-radius: 16px;
         overflow: hidden;
         cursor: pointer;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
         transition: transform 0.2s ease;
         text-decoration: none;
       }
@@ -70,50 +88,74 @@
         padding: 0 10px;
       }
 
+      /* MAPSTUDY */
       .toan {
         background-image: url("https://img.freepik.com/free-vector/mathematics-concept-illustration_114360-755.jpg");
-        background-size: cover;
-        background-position: center;
       }
-
       .tiengviet {
         background-image: url("https://img.freepik.com/free-vector/education-concept-illustration_114360-6307.jpg");
-        background-size: cover;
-        background-position: center;
       }
-
       .tienganh {
         background-image: url("https://img.freepik.com/free-vector/english-language-learning-concept_23-2148484970.jpg");
-        background-size: cover;
-        background-position: center;
       }
-
       .vatly {
         background-image: url("https://img.freepik.com/free-vector/physics-concept-illustration_114360-6433.jpg");
-        background-size: cover;
-        background-position: center;
       }
-
       .hoahoc {
         background-image: url("https://img.freepik.com/free-vector/chemistry-concept-illustration_114360-4413.jpg");
-        background-size: cover;
-        background-position: center;
       }
-
       .lichsu {
         background-image: url("https://img.freepik.com/free-vector/history-subject-illustration_114360-7338.jpg");
-        background-size: cover;
-        background-position: center;
       }
-
       .dialy {
         background-image: url("https://img.freepik.com/free-vector/world-map-concept-illustration_114360-8355.jpg");
-        background-size: cover;
-        background-position: center;
       }
-
       .ktpl {
         background-image: url("https://img.freepik.com/free-vector/law-concept-illustration_114360-3880.jpg");
+      }
+
+      /* EMPIRE */
+      .toan-empire {
+        background-image: url("https://img.freepik.com/free-vector/back-school-math-background_23-2148171294.jpg");
+      }
+      .tiengviet-empire {
+        background-image: url("https://img.freepik.com/free-vector/language-learning-concept_52683-35409.jpg");
+      }
+      .tienganh-empire {
+        background-image: url("https://img.freepik.com/free-vector/english-school-subject-elements-composition_1284-29948.jpg");
+      }
+      .vatly-empire {
+        background-image: url("https://img.freepik.com/free-vector/physics-research-concept_23-2148531120.jpg");
+      }
+      .hoahoc-empire {
+        background-image: url("https://img.freepik.com/free-vector/chemical-science-laboratory-research_3446-327.jpg");
+      }
+      .lichsu-empire {
+        background-image: url("https://img.freepik.com/free-vector/history-online-education-subject_23-2148484608.jpg");
+      }
+      .dialy-empire {
+        background-image: url("https://img.freepik.com/free-vector/geography-school-subject-elements-composition_1284-29946.jpg");
+      }
+      .ktpl-empire {
+        background-image: url("https://img.freepik.com/free-vector/legal-statement-concept-illustration_114360-25276.jpg?semt=ais_items_boosted&w=740");
+      }
+
+      .toan,
+      .tiengviet,
+      .tienganh,
+      .vatly,
+      .hoahoc,
+      .lichsu,
+      .dialy,
+      .ktpl,
+      .toan-empire,
+      .tiengviet-empire,
+      .tienganh-empire,
+      .vatly-empire,
+      .hoahoc-empire,
+      .lichsu-empire,
+      .dialy-empire,
+      .ktpl-empire {
         background-size: cover;
         background-position: center;
       }
@@ -122,31 +164,64 @@
   <body>
     <header>Chọn Môn Học</header>
 
+    <!-- MAPSTUDY -->
+    <div class="section-title">ĐGNL MAPSTUDY</div>
     <div class="subject-container">
-      <a href="toan.html" class="subject-card toan">
-        <div class="subject-overlay">Toán học</div>
-      </a>
-      <a href="tiengviet.html" class="subject-card tiengviet">
-        <div class="subject-overlay">Tiếng Việt</div>
-      </a>
-      <a href="tienganh.html" class="subject-card tienganh">
-        <div class="subject-overlay">Tiếng Anh</div>
-      </a>
-      <a href="vatly.html" class="subject-card vatly">
-        <div class="subject-overlay">Vật lý</div>
-      </a>
-      <a href="hoahoc.html" class="subject-card hoahoc">
-        <div class="subject-overlay">Hóa học</div>
-      </a>
-      <a href="lichsu.html" class="subject-card lichsu">
-        <div class="subject-overlay">Lịch sử</div>
-      </a>
-      <a href="dialy.html" class="subject-card dialy">
-        <div class="subject-overlay">Địa lý</div>
-      </a>
-      <a href="ktpl.html" class="subject-card ktpl">
-        <div class="subject-overlay">Kinh tế - Pháp luật</div>
-      </a>
+      <a href="toan.html" class="subject-card toan"
+        ><div class="subject-overlay">Toán học</div></a
+      >
+      <a href="tiengviet.html" class="subject-card tiengviet"
+        ><div class="subject-overlay">Tiếng Việt</div></a
+      >
+      <a href="tienganh.html" class="subject-card tienganh"
+        ><div class="subject-overlay">Tiếng Anh</div></a
+      >
+      <a href="vatly.html" class="subject-card vatly"
+        ><div class="subject-overlay">Vật lý</div></a
+      >
+      <a href="hoahoc.html" class="subject-card hoahoc"
+        ><div class="subject-overlay">Hóa học</div></a
+      >
+      <a href="lichsu.html" class="subject-card lichsu"
+        ><div class="subject-overlay">Lịch sử</div></a
+      >
+      <a href="dialy.html" class="subject-card dialy"
+        ><div class="subject-overlay">Địa lý</div></a
+      >
+      <a href="ktpl.html" class="subject-card ktpl"
+        ><div class="subject-overlay">Kinh tế - Pháp luật</div></a
+      >
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- EMPIRE -->
+    <div class="section-title">ĐGNL EMPIRE</div>
+    <div class="subject-container">
+      <a href="toan_empire.html" class="subject-card toan-empire"
+        ><div class="subject-overlay">Toán học</div></a
+      >
+      <a href="tiengviet_empire.html" class="subject-card tiengviet-empire"
+        ><div class="subject-overlay">Tiếng Việt</div></a
+      >
+      <a href="tienganh_empire.html" class="subject-card tienganh-empire"
+        ><div class="subject-overlay">Tiếng Anh</div></a
+      >
+      <a href="vatly_empire.html" class="subject-card vatly-empire"
+        ><div class="subject-overlay">Vật lý</div></a
+      >
+      <a href="hoahoc_empire.html" class="subject-card hoahoc-empire"
+        ><div class="subject-overlay">Hóa học</div></a
+      >
+      <a href="lichsu_empire.html" class="subject-card lichsu-empire"
+        ><div class="subject-overlay">Lịch sử</div></a
+      >
+      <a href="dialy_empire.html" class="subject-card dialy-empire"
+        ><div class="subject-overlay">Địa lý</div></a
+      >
+      <a href="ktpl_empire.html" class="subject-card ktpl-empire"
+        ><div class="subject-overlay">Kinh tế - Pháp luật</div></a
+      >
     </div>
   </body>
 </html>
