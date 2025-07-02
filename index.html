@@ -70,20 +70,32 @@
     </div>
 
     <script>
+      // Danh sách các tài khoản hợp lệ
+      const users = [
+        { username: "Phamthuytienpham156@gmail.com", password: "905146" },
+        { username: "admin", password: "123456" },
+        { username: "hocvien1", password: "matkhau1" },
+        { username: "hocvien2", password: "matkhau2" },
+        { username: "giangvien", password: "gv2025" },
+        { username: "nguyenan", password: "an123" },
+        { username: "lethao", password: "thao321" },
+      ];
+
       function login() {
         const username = document.getElementById("username").value;
         const password = document.getElementById("password").value;
 
-        // Kiểm tra tài khoản/mật khẩu
-        if (username === "Phamthuytienpham156@gmail.com" && password === "905146") {
-          // Đăng nhập đúng, chuyển sang trang dashboard.html
+        const user = users.find(
+          (u) => u.username === username && u.password === password
+        );
+
+        if (user) {
           window.location.href = "dashboard.html";
         } else {
-          // Sai tài khoản hoặc mật khẩu
           alert("Sai tài khoản hoặc mật khẩu!");
         }
 
-        return false; // Ngăn form submit mặc định
+        return false;
       }
     </script>
   </body>
