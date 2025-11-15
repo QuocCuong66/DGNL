@@ -1,152 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <title>TOÁN HỌC</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background: #f0f2f5;
-        margin: 0;
-        padding: 0;
-      }
-      header {
-        background-color: #6f42c1;
-        color: white;
-        padding: 20px;
-        text-align: center;
-      }
-      h1 {
-        margin: 0;
-      }
-      table {
-        width: 95%;
-        margin: 30px auto;
-        border-collapse: collapse;
-        background: white;
-        border-radius: 8px;
-        overflow: hidden;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      }
-      th, td {
-        padding: 12px 16px;
-        border-bottom: 1px solid #ddd;
-        text-align: left;
-      }
-      th {
-        background-color: #e9ecef;
-        font-weight: bold;
-      }
-      tr:hover td:not(.main-topic) {
-        background-color: #f1f1f1;
-      }
-      .main-topic {
-        background-color: #ff9800;
-        font-weight: bold;
-        color: white;
-        text-align: left;
-        font-size: 20px;
-        text-transform: uppercase;
-      }
-      a.button {
-        display: inline-block;
-        padding: 6px 12px;
-        text-decoration: none;
-        border-radius: 6px;
-        font-size: 14px;
-        color: white;
-        transition: background-color 0.3s ease;
-      }
-      .lecture {
-        background-color: #17a2b8;
-      }
-      .lecture:hover {
-        background-color: #138496;
-      }
-      .document {
-        background-color: #28a745;
-      }
-      .document:hover {
-        background-color: #1e7e34;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>TOÁN HỌC</h1>
-    </header>
-    <table>
-      <thead>
-        <tr>
-          <th>STT</th>
-          <th>Tên bài học</th>
-          <th>Bài giảng</th>
-          <th>Tài liệu</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- Đã có phần 1-3 -->
-        <!-- Tiếp tục từ phần 4 -->
-        <tr class="main-topic"><td colspan="4">1. THỐNG KÊ</td></tr>
-        <tr><td>1</td><td>Chủ đề 1: Xu thế trung tâm mẫu số liệu ghép nhóm</td><td><a class="button lecture" href="https://youtu.be/G7K5sEDDJrw">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>2</td><td>Chuyên đề 4: Quy tắc tính xác suất</td><td><a class="button lecture" href="https://youtu.be/3otie1m11PU">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>3</td><td>Chuyên đề 4: Quy tắc tính xác suất - Sửa bài tập</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=hUuDOvIvkmQ">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>15 ĐỀ MÔN TOÁN THPT</title>
 
-        <tr class="main-topic"><td colspan="4">2. LƯỢNG GIÁC</td></tr>
-        <tr><td>1</td><td>Buổi 1: Hệ thống lại đường tròn và công thức lượng giác</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=l6-wia_Jshg">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background: linear-gradient(to right, #dbeafe, #e9d5ff, #fff1f2);
+                margin: 0;
+                padding: 0;
+            }
 
-        <tr class="main-topic"><td colspan="4">3. MŨ LOGARIT</td></tr>
-        <tr><td>1</td><td>Chủ đề 1: Lũy thừa</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=fVm1aHwjD_8">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>2</td><td>Chủ đề 2: Hàm số lũy thừa P1</td><td><a class="button lecture" href="https://youtu.be/YhZQTSLWLM4">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>3</td><td>Chủ đề 2: Hàm số lũy thừa P2</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=MAuE7pcyZDE">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>4</td><td>Chủ đề 3: Logarit</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=TMocRkUPvGk">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>5</td><td>Chủ đề 5: Phương trình mũ không tham số</td><td><a class="button lecture" href="https://youtu.be/BrxX2LqnTpE">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>6</td><td>Chủ đề 6: Phương trình logarit không tham số</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=H5yXSst0jpA">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>7</td><td>Chủ đề 7: Bất phương trình mũ không tham số</td><td><a class="button lecture" href="https://youtu.be/TUOqvtaVXk4">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>8</td><td>Chủ đề 8: Bất phương trình logarit không tham số</td><td><a class="button lecture" href="https://youtu.be/KZVwl705l3E">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>9</td><td>Chủ đề 8: Phương trình mũ - loga có tham số</td><td><a class="button lecture" href="https://youtu.be/tVZWG85J-oA">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>10</td><td>Chủ đề 9: Bất phương trình logarit không tham số</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=95bIorSor-U">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr class="main-topic"><td colspan="4">4. HÌNH HỌC KHÔNG GIAN</td></tr>
-        <tr><td>1</td><td>HHKG chuyên đề buổi 1</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=EPUp_V7HFPY">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>2</td><td>HHKG Góc buổi 1</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=quNi79cU6p4">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>3</td><td>HHKG Góc buổi 2</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=8yokXyj8nWg">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>4</td><td>HHKG Góc buổi 3 phần 1</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=K9NEbEdrUU0">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>5</td><td>HHKG Góc buổi 3 phần 2</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=jHFSSkHjL-s">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>6</td><td>HHKG Khoảng cách P1</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=SrI4brHWffg">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>7</td><td>HHKG Khoảng cách P2</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=mFbvJvO_MMM">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>8</td><td>HHKG Khoảng cách P3</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=LKMx6jjzMxU">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>9</td><td>Kỹ năng tìm góc qua khoảng cách</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=NkWrl4WcaHc&feature=youtu.be">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>10</td><td>Lấy góc HHKG - Thầy Đức</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=r8ZPcR4Ysts">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>11</td><td>Nền tảng về công thức DKH - Thầy Đức</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=mV5pOIEsy9c">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>12</td><td>Tỉ lệ thể tích - Thầy Đức</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=axR3swIgFCE">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>13</td><td>Chủ đề 1: Khoảng cách buổi 1</td><td><a class="button lecture" href="https://www.youtube.com/watch?v=N1TIXIGkOr4">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>14</td><td>Chủ đề 1: Khoảng cách buổi 2</td><td><a class="button lecture" href="#">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>15</td><td>Chủ đề 1: Khoảng cách buổi 3</td><td><a class="button lecture" href="#"></a></td><td><a class="button document" href="#"></a></td></tr>
-        <tr><td>16</td><td>Chủ đề 1: Khoảng cách buổi 4</td><td><a class="button lecture" href="#">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>17</td><td>(14.5) Công thức tính nhanh thể tích tứ diện - Thầy Đức</td><td><a class="button lecture" href="#">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>18</td><td>(16.5) Chủ đề 2: Góc giữa hai mặt phẳng buổi 1</td><td><a class="button lecture" href="#">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>19</td><td>(16.5) Chủ đề 2: Góc giữa hai mặt phẳng buổi 2</td><td><a class="button lecture" href="#">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>20</td><td>(16.5) Chủ đề 2: Bài tập về nhà</td><td><a class="button lecture" href="#">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>21</td><td>(19.5) Chủ đề 3: Góc giữa đường thẳng và mặt phẳng buổi 1</td><td><a class="button lecture" href="#">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
+            .container {
+                max-width: 900px;
+                margin: 30px auto;
+                background: white;
+                padding: 20px;
+                border-radius: 15px;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+                background : transparent ;
+            }
 
-        <tr class="main-topic"><td colspan="4">5. GIỚI HẠN</td></tr>
-        <tr><td>1</td><td>Buổi 1: Giới hạn dãy số</td><td><a class="button lecture" href="#">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>2</td><td>Buổi 2: Giới hạn dãy số P2</td><td><a class="button lecture" href="#">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>3</td><td>Buổi 3: Giới hạn hàm số</td><td><a class="button lecture" href="#">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
 
-        <tr class="main-topic"><td colspan="4">6. ĐẠO HÀM</td></tr>
-        <tr><td>1</td><td>Đạo hàm buổi 1</td><td><a class="button lecture" href="#">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>2</td><td>Đạo hàm buổi 2</td><td><a class="button lecture" href="#">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>3</td><td>Đạo hàm buổi 3</td><td><a class="button lecture" href="#">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>4</td><td>Đạo hàm buổi 4</td><td><a class="button lecture" href="#">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>5</td><td>Đạo hàm buổi 5</td><td><a class="button lecture" href="#">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>6</td><td>Đạo hàm buổi 6</td><td><a class="button lecture" href="#">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>7</td><td>Đạo hàm buổi 7</td><td><a class="button lecture" href="#">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
-        <tr><td>8</td><td>(21.5) Đạo hàm nâng cao - Thầy Đức</td><td><a class="button lecture" href="#">BÀI GIẢNG</a></td><td><a class="button document" href="#">TÀI LIỆU</a></td></tr>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 15px;
+            }
 
-      </tbody>
-    </table>
-  </body>
+            table th, table td {
+                border: 1px solid #ccc;
+                padding: 12px;
+                text-align: center;
+                font-size: 16px;
+            }
+
+            table th {
+                background: #f3e8ff;
+                font-weight: bold;
+            }
+
+            table tr:nth-child(even) {
+                background: #fafafa;
+            }
+
+            .button {
+                background: #4f46e5;
+                color: white;
+                padding: 8px 14px;
+                border-radius: 8px;
+                text-decoration: none;
+                font-size: 15px;
+            }
+
+            .button:hover {
+                opacity: 0.8;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>15 ĐỀ MÔN TOÁN THPT</h1>
+
+            <table>
+                <tr>
+                    <th>STT</th>
+                    <th>TÊN BÀI HỌC</th>
+                    <th>BÀI HỌC</th>
+                </tr>
+
+                <!-- Danh sách 15 bài -->
+                <tr><td>1</td><td>ĐỀ TOÁN THPT – PHẦN 1</td><td><a class="button" href="https://www.youtube.com/watch?v=tS25hpolnSE">Xem bài</a></td></tr>
+                <tr><td>2</td><td>ĐỀ TOÁN THPT – PHẦN 2</td><td><a class="button" href="https://www.youtube.com/watch?v=VYfQc3u6v6I">Xem bài</a></td></tr>
+                <tr><td>3</td><td>ĐỀ TOÁN THPT – PHẦN 3</td><td><a class="button" href="https://www.youtube.com/watch?v=X1KnFHvhsao">"Xem bài</a></td></tr>
+                <tr><td>4</td><td>ĐỀ TOÁN THPT – PHẦN 4</td><td><a class="button" href="https://www.youtube.com/watch?v=bgQ-Pzd434w&feature=youtu.be">Xem bài</a></td></tr>
+                <tr><td>5</td><td>ĐỀ TOÁN THPT – PHẦN 5</td><td><a class="button" href="https://www.youtube.com/watch?v=67eqS1RUJtU">Xem bài</a></td></tr>
+                <tr><td>6</td><td>ĐỀ TOÁN THPT – PHẦN 6</td><td><a class="button" href="https://www.youtube.com/watch?v=aeNbofT7Pic">Xem bài</a></td></tr>
+                <tr><td>7</td><td>ĐỀ TOÁN THPT – PHẦN 7</td><td><a class="button" href="https://www.youtube.com/watch?v=d2_hbPgXl-8&feature=youtu.be">Xem bài</a></td></tr>
+                <tr><td>8</td><td>ĐỀ TOÁN THPT – PHẦN 8</td><td><a class="button" href="https://www.youtube.com/watch?v=oBDtW-kJ1Cc&feature=youtu.be">Xem bài</a></td></tr>
+                <tr><td>9</td><td>ĐỀ TOÁN THPT – PHẦN 9</td><td><a class="button" href="https://www.youtube.com/watch?v=KXFWIqD09nY&feature=youtu.be">Xem bài</a></td></tr>
+                <tr><td>10</td><td>ĐỀ TOÁN THPT – PHẦN 10</td><td><a class="button" href="https://www.youtube.com/watch?v=OG-uJndxjPI">Xem bài</a></td></tr>
+                <tr><td>11</td><td>ĐỀ TOÁN THPT – PHẦN 11</td><td><a class="button" href="https://www.youtube.com/watch?v=rYNAf7_EGEw&feature=youtu.be">Xem bài</a></td></tr>
+                <tr><td>12</td><td>ĐỀ TOÁN THPT – PHẦN 12</td><td><a class="button" href="https://www.youtube.com/watch?v=AFBlMXoOVL4&feature=youtu.be">Xem bài</a></td></tr>
+                <tr><td>13</td><td>ĐỀ TOÁN THPT – PHẦN 13</td><td><a class="button" href="https://www.youtube.com/watch?v=KFcT7M4ZgO8">Xem bài</a></td></tr>
+                <tr><td>14</td><td>ĐỀ TOÁN THPT – PHẦN 14</td><td><a class="button" href="https://www.youtube.com/watch?v=hqkO09zUivM&feature=youtu.be">Xem bài</a></td></tr>
+                <tr><td>15</td><td>ĐỀ TOÁN THPT – PHẦN 15</td><td><a class="button" href="https://www.youtube.com/watch?v=2mUNsQU6H8U&feature=youtu.be">Xem bài</a></td></tr>
+
+            </table>
+        </div>
+    </body>
 </html>
-
-
